@@ -1,18 +1,20 @@
 {
   "dependencies": {
     "appInsights1": {
-      "type": "appInsights"
-    },
-    "storage1": {
-      "type": "storage",
-      "connectionId": "AzureWebJobsStorage"
+      "type": "appInsights",
+      "connectionId": "APPINSIGHTS_CONNECTIONSTRING"
     },
     "secrets1": {
-      "type": "secrets"
+      "type": "secrets",
+      "connectionId": "VaultUri"
     },
     "storage2": {
       "type": "storage",
       "connectionId": "DocxBlobConnectionString"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
     }
   }
 }
